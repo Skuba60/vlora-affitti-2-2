@@ -1,10 +1,10 @@
 {
   "homezone": {
-    "https://homezone.al/property/rent/vlore/rruga-hasan-kushta-245688": "€550.00 · 2 camere · 2 bagni",
-    "https://homezone.al/property/rent/vlore/rruga-murat-terbaci-269169": "€600.00 · 2 camere · 2 bagni"
+    "https://homezone.al/it/property/rent/vlore/rruga-hasan-kushta-245688": "€550.00 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/rruga-murat-terbaci-269169": "€600.00 · 2 camere · 2 bagni"
   },
   "_meta": {
-    "last_run": "2026-08-30T16:21:30Z",
+    "last_run": "2026-08-30T17:15:11Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
