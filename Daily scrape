@@ -1,0 +1,43 @@
+name: Controllo giornaliero annunci Vlore
+
+on:
+  schedule:
+    # Ogni giorno alle 07:00 UTC (le 09:00 in Italia/Albania in estate,
+    # le 08:00 in inverno). Puoi cambiare l'orario modificando questi numeri:
+    # sono "minuto ora * * *"
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    # Questo permette di far partire il controllo manualmente in qualsiasi
+    # momento dal sito di GitHub, utile per testare che tutto funzioni.
+
+permissions:
+  contents: write   # serve per poter salvare il file seen.json aggiornato
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il codice del progetto
+        uses: actions/checkout@v4
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa le librerie necessarie
+        run: pip install -r requirements.txt
+
+      - name: Esegui il controllo annunci
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scraper.py
+
+      - name: Salva la lista aggiornata degli annunci gia' visti
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add seen.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Aggiorna elenco annunci visti"
+          git push
