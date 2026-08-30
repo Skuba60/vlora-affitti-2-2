@@ -32,7 +32,7 @@ SEEN_FILE = Path("seen.json")
 
 SITES = {
     "homezone": {
-        "url": "https://homezone.al/properties/rent/vlore",
+        "url": "https://homezone.al/it/properties/rent/vlore",
         "label": "Homezone.al",
     },
 }
@@ -82,8 +82,8 @@ def extract_room_counts(card_text):
     se non li trova (in tal caso l'annuncio viene scartato, per sicurezza:
     meglio perdere un annuncio dubbio che mostrarne uno sbagliato).
     """
-    bedroom_match = re.search(r"(\d+)\s*Dhom", card_text)
-    bathroom_match = re.search(r"(\d+)\s*Banjo", card_text)
+    bedroom_match = re.search(r"(\d+)\s*Local", card_text)
+    bathroom_match = re.search(r"(\d+)\s*Bagn", card_text)
 
     bedrooms = int(bedroom_match.group(1)) if bedroom_match else None
     bathrooms = int(bathroom_match.group(1)) if bathroom_match else None
