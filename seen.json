@@ -1,10 +1,10 @@
 {
   "homezone": {
-    "https://homezone.al/it/property/rent/vlore/prane-kfc-271998": "€600.00 · 2 camere · 2 bagni",
-    "https://homezone.al/it/property/rent/vlore/rruga-hasan-kushta-271997": "€550.00 · 2 camere · 2 bagni"
+    "https://homezone.al/it/property/rent/vlore/rruga-hasan-kushta-271997": "€550.00 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/prane-kfc-271998": "€600.00 · 2 camere · 2 bagni"
   },
   "_meta": {
-    "last_run": "2026-09-04T07:04:07Z",
+    "last_run": "2026-09-05T07:03:14Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
