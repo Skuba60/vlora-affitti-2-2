@@ -1,9 +1,7 @@
 {
-  "homezone": {
-    "https://homezone.al/it/property/rent/vlore/rruga-hasan-kushta-271997": "€550.00 · 2 camere · 2 bagni"
-  },
+  "homezone": {},
   "_meta": {
-    "last_run": "2026-09-08T07:05:16Z",
+    "last_run": "2026-09-09T07:05:07Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
