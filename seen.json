@@ -1,7 +1,9 @@
 {
-  "homezone": {},
+  "homezone": {
+    "https://homezone.al/it/property/rent/vlore/rruga-e-cipajve-271997": "€550.00 · 2 camere · 2 bagni"
+  },
   "_meta": {
-    "last_run": "2026-09-19T07:03:22Z",
+    "last_run": "2026-09-20T07:03:17Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
