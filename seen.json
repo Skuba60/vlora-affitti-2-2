@@ -1,9 +1,10 @@
 {
   "homezone": {
-    "https://homezone.al/it/property/rent/vlore/prane-kfc-se-271998": "€600.00 · 2 camere · 2 bagni"
+    "https://homezone.al/it/property/rent/vlore/rruga-cajupi-258709": "€600.00 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/rruga-murat-terbaci-269169": "€600.00 · 2 camere · 2 bagni"
   },
   "_meta": {
-    "last_run": "2026-09-22T07:04:53Z",
+    "last_run": "2026-09-23T07:04:27Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
