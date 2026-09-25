@@ -1,10 +1,7 @@
 {
-  "homezone": {
-    "https://homezone.al/it/property/rent/vlore/rruga-e-cipajve-271997": "€550.00 · 2 camere · 2 bagni",
-    "https://homezone.al/it/property/rent/vlore/bulevardi-ismail-qemali-286249": "LEK 40000 · 2 camere · 2 bagni"
-  },
+  "homezone": {},
   "_meta": {
-    "last_run": "2026-09-24T07:04:38Z",
+    "last_run": "2026-09-25T07:04:39Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
