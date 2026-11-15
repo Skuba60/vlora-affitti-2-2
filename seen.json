@@ -1,10 +1,7 @@
 {
-  "homezone": {
-    "https://homezone.al/it/property/rent/vlore/prane-kfc-se-271998": "€600 · 2 camere · 2 bagni",
-    "https://homezone.al/it/property/rent/vlore/rruga-cameria-323741": "LEK 80,000 · 2 camere · 2 bagni"
-  },
+  "homezone": {},
   "_meta": {
-    "last_run": "2026-11-14T13:51:45Z",
+    "last_run": "2026-11-15T14:25:33Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
