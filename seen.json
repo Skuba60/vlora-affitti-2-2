@@ -1,7 +1,14 @@
 {
-  "homezone": {},
+  "homezone": {
+    "https://homezone.al/it/property/rent/vlore/rruga-fejzo-mema-301072": "LEK 55,000 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/rruga-cameria-304149": "€500 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/lungomare-304150": "€500 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/rruga-e-cipajve-271997": "€550 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/lungomare-293117": "€700 · 2 camere · 2 bagni",
+    "https://homezone.al/it/property/rent/vlore/rruga-aleksander-moisiu-293110": "€650 · 2 camere · 2 bagni"
+  },
   "_meta": {
-    "last_run": "2026-11-16T16:37:18Z",
+    "last_run": "2026-11-17T16:34:07Z",
     "site_labels": {
       "homezone": "Homezone.al"
     }
